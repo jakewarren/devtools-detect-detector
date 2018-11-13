@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "devtools-detect-detector",
+  "version": "0.1.0",
+  "description": "blah blah blah",
+
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["<all_urls>"]
+  }],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "notifications"
+  ]
+
+}
